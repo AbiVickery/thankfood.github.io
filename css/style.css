@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+    background: rgb(205,174,69);
+    background: -moz-radial-gradient(circle, rgba(205,174,69,1) 0%, rgba(223,164,32,1) 32%, rgba(226,184,94,1) 72%, rgba(214,93,32,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(205,174,69,1) 0%, rgba(223,164,32,1) 32%, rgba(226,184,94,1) 72%, rgba(214,93,32,1) 100%);
+    background: radial-gradient(circle, rgba(205,174,69,1) 0%, rgba(223,164,32,1) 32%, rgba(226,184,94,1) 72%, rgba(214,93,32,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdae45",endColorstr="#d65d20",GradientType=1);
+}
