@@ -11,7 +11,7 @@ const survey = ()=> {
     // console.log(q4);
     var q5 = Number(document.querySelector('input[name=personality]:checked').value);
     // console.log(q5);
-    var images = [];
+    var images = ['media/cranberry.jpeg', 'media/ham.jpg', 'media/turkey.jpg', 'media/dressing.jpg', 'media/yams.jpg'];
 
     var total = q1 + q2 + q3 + q4 + q5;
     // console.log(total);
@@ -31,5 +31,8 @@ const survey = ()=> {
     } else if (total > 20) {
         message = "You are Yams, yam right!";
         resultpic = images[1];
-    }
+    };
+
+    var output = document.getElementById('output');
+    output.innerText = message;
 }
